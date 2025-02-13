@@ -1216,6 +1216,14 @@
               "description": "Failing Periods for the alert"
             }
           },
+          "HybridVMPercentCPUEvaluationPeriods": {
+            "type": "string",
+            "defaultValue": "1",
+            "metadata": {
+              "displayName": "Hybrid VM Percent CPU Evaluation Periods",
+              "description": "Evaluation Periods for the alert"
+            }
+          },
           "HybridVMPercentMemoryAlertSeverity": {
             "type": "String",
             "defaultValue": "2",
@@ -2362,6 +2370,9 @@
               },
               "failingPeriods": {
                 "value": "[[[parameters('HybridVMPercentCPUFailingPeriods')]"
+              },
+              "evaluationPeriods": {
+                "value": "[[[parameters('HybridVMPercentCPUEvaluationPeriods')]"
               },
               "alertResourceGroupName": {
                 "value": "[[[parameters('ALZMonitorResourceGroupName')]"

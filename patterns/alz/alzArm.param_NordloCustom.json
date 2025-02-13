@@ -2668,10 +2668,7 @@
           "value": "Count"
         },
         "VMPercentCPUFailingPeriods": {
-          "value": "3"
-        },
-        "VMPercentCPUEvaluationPeriods": {
-          "value": "3"
+          "value": "1"
         },
         "VMPercentMemoryAlertSeverity": {
           "value": "2"
