@@ -1219,6 +1219,14 @@
               "description": "Failing Periods for the alert"
             }
           },
+          "VMPercentCPUEvaluationPeriods": {
+            "type": "string",
+            "defaultValue": "1",
+            "metadata": {
+              "displayName": "VM Percent CPU Evaluation Periods",
+              "description": "Evaluation Periods for the alert"
+            }
+          },
           "VMPercentMemoryAlertSeverity": {
             "type": "String",
             "defaultValue": "2",
@@ -2230,6 +2238,9 @@
               },
               "failingPeriods": {
                 "value": "[[[parameters('VMPercentCPUFailingPeriods')]"
+              },
+              "evalationPeriods": {
+                "value": "[[[parameters('VMPercentCPUEvaluationPeriods')]"
               },
               "alertResourceGroupName": {
                 "value": "[[[parameters('ALZMonitorResourceGroupName')]"
