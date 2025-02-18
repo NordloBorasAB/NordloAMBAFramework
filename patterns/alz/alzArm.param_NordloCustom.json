@@ -1195,7 +1195,10 @@
           "value": "Count"
         },
         "HybridVMHeartBeatRGFailingPeriods": {
-          "value": "1"
+          "value": "3"
+        },
+        "HybridVMHeartBeatRGEvaluationPeriods": {
+          "value": "3"
         },
         "HybridVMNetworkInAlertSeverity": {
           "value": "2"
@@ -1490,7 +1493,10 @@
           "value": "Count"
         },
         "HybridVMPercentMemoryFailingPeriods": {
-          "value": "1"
+          "value": "3"
+        },
+        "HybridVMPercentMemoryEvaluationPeriods": {
+          "value": "3"
         },
         "HybridVMDataDiskSpaceAlertSeverity": {
           "value": "2"
@@ -1526,10 +1532,10 @@
           "value": "Count"
         },
         "HybridVMDataDiskSpaceEvaluationPeriods": {
-          "value": "1"
+          "value": "2"
         },
         "HybridVMDataDiskSpaceFailingPeriods": {
-          "value": "1"
+          "value": "2"
         },
         "HybridVMDataDiskReadLatencyAlertSeverity": {
           "value": "2"
@@ -2412,7 +2418,10 @@
           ]
         },
         "VMHeartBeatRGFailingPeriods": {
-          "value": "1"
+          "value": "3"
+        },
+        "VMHeartBeatRGEvaluationPeriods": {
+          "value": "3"
         },
         "VMNetworkInAlertSeverity": {
           "value": "2"
@@ -2624,10 +2633,10 @@
           "value": "Count"
         },
         "VMOSDiskSpaceEvaluationPeriods": {
-          "value": "1"
+          "value": "2"
         },
         "VMOSDiskSpaceFailingPeriods": {
-          "value": "1"
+          "value": "2"
         },
         "VMOSDiskSpaceComputersToInclude": {
           "value": [
@@ -2707,7 +2716,10 @@
           "value": "Count"
         },
         "VMPercentMemoryFailingPeriods": {
-          "value": "1"
+          "value": "3"
+        },
+        "VMPercentMemoryEvaluationPeriods": {
+          "value": "3"
         },
         "VMDataDiskSpaceAlertSeverity": {
           "value": "2"
@@ -2743,10 +2755,10 @@
           "value": "Count"
         },
         "VMDataDiskSpaceEvaluationPeriods": {
-          "value": "1"
+          "value": "2"
         },
         "VMDataDiskSpaceFailingPeriods": {
-          "value": "1"
+          "value": "2"
         },
         "VMDataDiskReadLatencyAlertSeverity": {
           "value": "2"

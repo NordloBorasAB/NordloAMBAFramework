@@ -346,6 +346,14 @@
               "description": "Failing Periods for the alert"
             }
           },
+          "HybridVMHeartBeatRGEvaluationPeriods": {
+            "type": "string",
+            "defaultValue": "1",
+            "metadata": {
+              "displayName": "HybridVM Heart Beat RG Evaluation Periods",
+              "description": "Evaluation Periods for the alert"
+            }
+          },
           "HybridVMNetworkInAlertSeverity": {
             "type": "String",
             "defaultValue": "2",
@@ -1354,6 +1362,14 @@
               "description": "Failing Periods for the alert"
             }
           },
+          "HybridVMPercentMemoryEvaluationPeriods": {
+            "type": "string",
+            "defaultValue": "1",
+            "metadata": {
+              "displayName": "Hybrid VM Percent Memory Evaluation Periods",
+              "description": "Evaluation Periods for the alert"
+            }
+          },
           "HybridVMDataDiskSpaceAlertSeverity": {
             "type": "String",
             "defaultValue": "2",
@@ -1990,6 +2006,9 @@
               "failingPeriods": {
                 "value": "[[[parameters('HybridVMHeartBeatRGFailingPeriods')]"
               },
+              "evaluationPeriods": {
+                "value": "[[[parameters('HybridVMHeartBeatRGEvaluationPeriods')]"
+              },
               "MonitorDisableTagName": {
                 "value": "[[[parameters('ALZMonitorDisableTagName')]"
               },
@@ -2433,6 +2452,9 @@
               },
               "failingPeriods": {
                 "value": "[[[parameters('HybridVMPercentMemoryFailingPeriods')]"
+              },
+              "evaluationPeriods": {
+                "value": "[[[parameters('HybridVMPercentMemoryEvaluationPeriods')]"
               },
               "alertResourceGroupName": {
                 "value": "[[[parameters('ALZMonitorResourceGroupName')]"

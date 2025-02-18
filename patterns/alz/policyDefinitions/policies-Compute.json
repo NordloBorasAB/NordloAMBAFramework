@@ -345,6 +345,14 @@
               "description": "Failing Periods for the alert"
             }
           },
+          "VMHeartBeatRGEvaluationPeriods": {
+            "type": "string",
+            "defaultValue": "1",
+            "metadata": {
+              "displayName": "VM Heart Beat RG Evaluation Periods",
+              "description": "Evaluation Periods for the alert"
+            }
+          },
           "VMNetworkInAlertSeverity": {
             "type": "String",
             "defaultValue": "2",
@@ -1357,6 +1365,14 @@
               "description": "Failing Periods for the alert"
             }
           },
+          "VMPercentMemoryEvaluationPeriods": {
+            "type": "string",
+            "defaultValue": "1",
+            "metadata": {
+              "displayName": "VM Percent Memory Evaluation Periods",
+              "description": "Evaluation Periods for the alert"
+            }
+          },
           "VMDataDiskSpaceAlertSeverity": {
             "type": "String",
             "defaultValue": "2",
@@ -1858,6 +1874,9 @@
               "failingPeriods": {
                 "value": "[[[parameters('VMHeartBeatRGFailingPeriods')]"
               },
+              "evaluationPeriods": {
+                "value": "[[[parameters('VMHeartBeatRGEvaluationPeriods')]"
+              },
               "MonitorDisableTagName": {
                 "value": "[[[parameters('ALZMonitorDisableTagName')]"
               },
@@ -2301,6 +2320,9 @@
               },
               "failingPeriods": {
                 "value": "[[[parameters('VMPercentMemoryFailingPeriods')]"
+              },
+              "evaluationPeriods": {
+                "value": "[[[parameters('VMPercentMemoryEvaluationPeriods')]"
               },
               "alertResourceGroupName": {
                 "value": "[[[parameters('ALZMonitorResourceGroupName')]"
