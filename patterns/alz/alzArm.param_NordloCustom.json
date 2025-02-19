@@ -1195,10 +1195,10 @@
           "value": "Count"
         },
         "HybridVMHeartBeatRGFailingPeriods": {
-          "value": "3"
+          "value": "1"
         },
         "HybridVMHeartBeatRGEvaluationPeriods": {
-          "value": "3"
+          "value": "1"
         },
         "HybridVMNetworkInAlertSeverity": {
           "value": "2"
@@ -1234,10 +1234,10 @@
           "value": "Count"
         },
         "HybridVMNetworkInEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMNetworkInFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMNetworkInComputersToInclude": {
           "value": [
@@ -1278,10 +1278,10 @@
           "value": "Count"
         },
         "HybridVMNetworkOutEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMNetworkOutFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMNetworkOutComputersToInclude": {
           "value": [
@@ -1322,10 +1322,10 @@
           "value": "Count"
         },
         "HybridVMOSDiskReadLatencyEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMOSDiskReadLatencyFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMOSDiskReadLatencyComputersToInclude": {
           "value": [
@@ -1366,10 +1366,10 @@
           "value": "Count"
         },
         "HybridVMOSDiskWriteLatencyEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMOSDiskWriteLatencyFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMOSDiskWriteLatencyComputersToInclude": {
           "value": [
@@ -1457,10 +1457,10 @@
           "value": "2"
         },
         "HybridVMPercentCPUFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMPercentCPUEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMPercentMemoryWindowSize": {
           "value": "PT15M"
@@ -1493,10 +1493,10 @@
           "value": "Count"
         },
         "HybridVMPercentMemoryFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMPercentMemoryEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMDataDiskSpaceAlertSeverity": {
           "value": "2"
@@ -1571,10 +1571,10 @@
           "value": "Count"
         },
         "HybridVMDataDiskReadLatencyEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMDataDiskReadLatencyFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMDataDiskReadLatencyComputersToInclude": {
           "value": [
@@ -1615,10 +1615,10 @@
           "value": "Count"
         },
         "HybridVMDataDiskWriteLatencyEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMDataDiskWriteLatencyFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "HybridVMDataDiskWriteLatencyComputersToInclude": {
           "value": [
@@ -2418,10 +2418,10 @@
           ]
         },
         "VMHeartBeatRGFailingPeriods": {
-          "value": "3"
+          "value": "1"
         },
         "VMHeartBeatRGEvaluationPeriods": {
-          "value": "3"
+          "value": "1"
         },
         "VMNetworkInAlertSeverity": {
           "value": "2"
@@ -2457,10 +2457,10 @@
           "value": "Count"
         },
         "VMNetworkInEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMNetworkInFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMNetworkInComputersToInclude": {
           "value": [
@@ -2501,10 +2501,10 @@
           "value": "Count"
         },
         "VMNetworkOutEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMNetworkOutFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMNetworkOutComputersToInclude": {
           "value": [
@@ -2545,10 +2545,10 @@
           "value": "Count"
         },
         "VMOSDiskReadLatencyEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMOSDiskReadLatencyFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMOSDiskReadLatencyComputersToInclude": {
           "value": [
@@ -2589,10 +2589,10 @@
           "value": "Count"
         },
         "VMOSDiskWriteLatencyEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMOSDiskWriteLatencyFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMOSDiskWriteLatencyComputersToInclude": {
           "value": [
@@ -2677,10 +2677,10 @@
           "value": "Count"
         },
         "VMPercentCPUFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMPercentCPUEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMPercentMemoryAlertSeverity": {
           "value": "2"
@@ -2716,10 +2716,10 @@
           "value": "Count"
         },
         "VMPercentMemoryFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMPercentMemoryEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMDataDiskSpaceAlertSeverity": {
           "value": "2"
@@ -2794,10 +2794,10 @@
           "value": "Count"
         },
         "VMDataDiskReadLatencyEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMDataDiskReadLatencyFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMDataDiskReadLatencyComputersToInclude": {
           "value": [
@@ -2838,10 +2838,10 @@
           "value": "Count"
         },
         "VMDataDiskWriteLatencyEvaluationPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMDataDiskWriteLatencyFailingPeriods": {
-          "value": "3"
+          "value": "4"
         },
         "VMDataDiskWriteLatencyComputersToInclude": {
           "value": [
