@@ -2258,7 +2258,7 @@
               "failingPeriods": {
                 "value": "[[[parameters('VMPercentCPUFailingPeriods')]"
               },
-              "evalationPeriods": {
+              "evaluationPeriods": {
                 "value": "[[[parameters('VMPercentCPUEvaluationPeriods')]"
               },
               "alertResourceGroupName": {
