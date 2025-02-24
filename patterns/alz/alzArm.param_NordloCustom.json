@@ -30,7 +30,7 @@
       "value": "Yes"
     },
     "enableAMBAServiceHealth": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBANotificationAssets": {
       "value": "Yes"
