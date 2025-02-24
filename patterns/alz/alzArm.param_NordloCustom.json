@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "JoerLabs"
+      "value": "HestraInredningarAB"
     },
     "platformManagementGroup": {
-      "value": "JoerLabs"
+      "value": "HestraInredningarAB"
     },
     "IdentityManagementGroup": {
-      "value": "JoerLabs"
+      "value": "HestraInredningarAB"
     },
     "managementManagementGroup": {
-      "value": "JoerLabs"
+      "value": "HestraInredningarAB"
     },
     "connectivityManagementGroup": {
-      "value": "JoerLabs"
+      "value": "HestraInredningarAB"
     },
     "LandingZoneManagementGroup": {
-      "value": "JoerLabs"
+      "value": "HestraInredningarAB"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -103,7 +103,7 @@
       "value": ""
     },
     "ALZLogicappCallbackUrl": {
-      "value": ""
+      "value": "https://prod-19.swedencentral.logic.azure.com:443/workflows/1cf0dff2d2bc45a7a2b54cdde15e4cf6/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=ByIxmUaV2hH5EfcZaJL4Q_BLmxW2COAvStNmdSGq_1E"
     },
     "ALZArmRoleId": {
       "value": []
