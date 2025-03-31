@@ -72,7 +72,7 @@
       "value": "id-amba-prod-001"
     },
     "managementSubscriptionId": {
-      "value": "5798554d-51e4-4cd6-b003-f7a9b9e61cc9"
+      "value": "686e97aa-4619-46b7-a219-08eaa80b21d1"
     },
     "ALZMonitorResourceGroupName": {
       "value": "rg-amba-monitoring-001"
@@ -1222,6 +1222,9 @@
         "HybridVMHeartBeatRGAutoMitigate": {
           "value": "true"
         },
+        "HybridVMHeartBeatRGcheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "HybridVMHeartBeatRGAutoResolve": {
           "value": "true"
         },
@@ -1260,6 +1263,9 @@
         },
         "HybridVMNetworkInAutoMitigate": {
           "value": "true"
+        },
+        "HybridVMNetworkIncheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "HybridVMNetworkInAutoResolve": {
           "value": "true"
@@ -1305,6 +1311,9 @@
         "HybridVMNetworkOutAutoMitigate": {
           "value": "true"
         },
+        "HybridVMNetworkOutcheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "HybridVMNetworkOutAutoResolve": {
           "value": "true"
         },
@@ -1348,6 +1357,9 @@
         },
         "HybridVMOSDiskReadLatencyAutoMitigate": {
           "value": "true"
+        },
+        "HybridVMOSDiskReadLatencycheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "HybridVMOSDiskReadLatencyAutoResolve": {
           "value": "true"
@@ -1393,6 +1405,9 @@
         "HybridVMOSDiskWriteLatencyAutoMitigate": {
           "value": "true"
         },
+        "HybridVMOSDiskWriteLatencycheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "HybridVMOSDiskWriteLatencyAutoResolve": {
           "value": "true"
         },
@@ -1436,6 +1451,9 @@
         },
         "HybridVMOSDiskSpaceAutoMitigate": {
           "value": "true"
+        },
+        "HybridVMOSDiskSpacecheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "HybridVMOSDiskSpaceAutoResolve": {
           "value": "true"
@@ -1481,6 +1499,9 @@
         "HybridVMPercentCPUAutoMitigate": {
           "value": "true"
         },
+        "HybridVMPercentCPUcheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "HybridVMPercentCPUAutoResolve": {
           "value": "true"
         },
@@ -1519,6 +1540,9 @@
         },
         "HybridVMPercentMemoryAutoMitigate": {
           "value": "true"
+        },
+        "HybridVMPercentMemorycheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "HybridVMPercentMemoryAutoResolve": {
           "value": "true"
@@ -1559,6 +1583,9 @@
         "HybridVMDataDiskSpaceAutoMitigate": {
           "value": "true"
         },
+        "HybridVMDataDiskSpacecheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "HybridVMDataDiskSpaceAutoResolve": {
           "value": "true"
         },
@@ -1597,6 +1624,9 @@
         },
         "HybridVMDataDiskReadLatencyAutoMitigate": {
           "value": "true"
+        },
+        "HybridVMDataDiskReadLatencycheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "HybridVMDataDiskReadLatencyAutoResolve": {
           "value": "true"
@@ -1642,6 +1672,9 @@
         "HybridVMDataDiskWriteLatencyAutoMitigate": {
           "value": "true"
         },
+        "HybridVMDataDiskWriteLatencycheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "HybridVMDataDiskWriteLatencyAutoResolve": {
           "value": "true"
         },
@@ -1685,6 +1718,9 @@
         },
         "HybridVMDisconnectedAlertAutoMitigate": {
           "value": "true"
+        },
+        "HybridVMDisconnectedAlertcheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "HybridVMDisconnectedAlertPolicyEffect": {
           "value": "deployIfNotExists"
@@ -1788,6 +1824,9 @@
         },
         "LAWDailyCapLimitAutoMitigate": {
           "value": "true"
+        },
+        "LAWDailyCapLimitcheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "LAWDailyCapLimitThreshold": {
           "value": "0"
@@ -2440,6 +2479,9 @@
         "VMHeartBeatRGAutoMitigate": {
           "value": "true"
         },
+        "VMHeartBeatRGcheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "VMHeartBeatRGAutoResolve": {
           "value": "true"
         },
@@ -2483,6 +2525,9 @@
         },
         "VMNetworkInAutoMitigate": {
           "value": "true"
+        },
+        "VMNetworkIncheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "VMNetworkInAutoResolve": {
           "value": "true"
@@ -2528,6 +2573,9 @@
         "VMNetworkOutAutoMitigate": {
           "value": "true"
         },
+        "VMNetworkOutcheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "VMNetworkOutAutoResolve": {
           "value": "true"
         },
@@ -2571,6 +2619,9 @@
         },
         "VMOSDiskReadLatencyAutoMitigate": {
           "value": "true"
+        },
+        "VMOSDiskReadLatencycheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "VMOSDiskReadLatencyAutoResolve": {
           "value": "true"
@@ -2616,6 +2667,9 @@
         "VMOSDiskWriteLatencyAutoMitigate": {
           "value": "true"
         },
+        "VMOSDiskWriteLatencycheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "VMOSDiskWriteLatencyAutoResolve": {
           "value": "true"
         },
@@ -2659,6 +2713,9 @@
         },
         "VMOSDiskSpaceAutoMitigate": {
           "value": "true"
+        },
+        "VMOSDiskSpacecheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "VMOSDiskSpaceAutoResolve": {
           "value": "true"
@@ -2704,6 +2761,9 @@
         "VMPercentCPUAutoMitigate": {
           "value": "true"
         },
+        "VMPercentCPUcheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "VMPercentCPUAutoResolve": {
           "value": "true"
         },
@@ -2742,6 +2802,9 @@
         },
         "VMPercentMemoryAutoMitigate": {
           "value": "true"
+        },
+        "VMPercentMemorycheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "VMPercentMemoryAutoResolve": {
           "value": "true"
@@ -2782,6 +2845,9 @@
         "VMDataDiskSpaceAutoMitigate": {
           "value": "true"
         },
+        "VMDataDiskSpacecheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "VMDataDiskSpaceAutoResolve": {
           "value": "true"
         },
@@ -2820,6 +2886,9 @@
         },
         "VMDataDiskReadLatencyAutoMitigate": {
           "value": "true"
+        },
+        "VMDataDiskReadLatencycheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "VMDataDiskReadLatencyAutoResolve": {
           "value": "true"
@@ -2864,6 +2933,9 @@
         },
         "VMDataDiskWriteLatencyAutoMitigate": {
           "value": "true"
+        },
+        "VMDataDiskWriteLatencycheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
         },
         "VMDataDiskWriteLatencyAutoResolve": {
           "value": "true"
@@ -2997,6 +3069,9 @@
         "AppInsightsThrottlingLimitAutoMitigate": {
           "value": "true"
         },
+        "AppInsightsThrottlingLimitcheckWorkspaceAlertsStorageConfigured": {
+          "value": "false"
+        },
         "AppInsightsThrottlingLimitThreshold": {
           "value": "32000"
         },
@@ -3017,6 +3092,51 @@
         },
         "activityAppInsightsDeleteAlertState": {
           "value": "false"
+        },
+        "activityLAWDeletePolicyEffect": {
+          "value": "deployIfNotExists"
+        },
+        "activityLAWDeleteAlertState": {
+          "value": "true"
+        },
+        "activityLAWKeyRegenPolicyEffect": {
+          "value": "deployIfNotExists"
+        },
+        "activityLAWKeyRegenAlertState": {
+          "value": "true"
+        },
+        "LAWDailyCapLimitSeverity": {
+          "value": "1"
+        },
+        "LAWDailyCapLimitOperator": {
+          "value": "GreaterThan"
+        },
+        "LAWDailyCapLimitTimeAggregation": {
+          "value": "Count"
+        },
+        "LAWDailyCapLimitWindowSize": {
+          "value": "PT5M"
+        },
+        "LAWDailyCapLimitEvaluationFrequency": {
+          "value": "PT5M"
+        },
+        "LAWDailyCapLimitAutoMitigate": {
+          "value": "true"
+        },
+        "LAWDailyCapLimitThreshold": {
+          "value": "0"
+        },
+        "LAWDailyCapLimitFailingPeriods": {
+          "value": "1"
+        },
+        "LAWDailyCapLimitEvaluationPeriods": {
+          "value": "1"
+        },
+        "LAWDailyCapLimitPolicyEffect": {
+          "value": "deployIfNotExists"
+        },
+        "LAWDailyCapLimitAlertState": {
+          "value": "true"
         }
       }
     }
