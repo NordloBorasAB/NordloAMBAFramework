@@ -1,4 +1,4 @@
-# Azure Monitor Baseline Alerts (AMBA)
+# Nordlo Azure Monitor Baseline Alerts (AMBA)
 
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/Azure/azure-monitor-baseline-alerts.svg)](http://isitmaintained.com/project/Azure/azure-monitor-baseline-alerts "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/Azure/azure-monitor-baseline-alerts.svg)](http://isitmaintained.com/project/Azure/azure-monitor-baseline-alerts "Percentage of issues still open")
